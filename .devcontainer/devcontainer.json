@@ -1,5 +1,5 @@
 {
   "name": "LSCPU Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
-  "postCreateCommand": "bash /workspaces/lscpu/run_lscpu.sh"
+  "postCreateCommand": "chmod +x /workspaces/lscpu/run_lscpu.sh && bash /workspaces/lscpu/run_lscpu.sh"
 }
