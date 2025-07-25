@@ -2,17 +2,17 @@
   "name": "LSCPU Codespace",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "postCreateCommand": [
-    "echo '--- DEBUG: Starting postCreateCommand ---' >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Current user: $(whoami) ---' >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Current working directory: $(pwd) ---' >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Permissions before chmod ---' >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Starting postCreateCommand ---\" >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Current user: $(whoami) ---\" >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Current working directory: $(pwd) ---\" >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Permissions before chmod ---\" >> /tmp/codespace_debug.log 2>&1",
     "ls -l /workspaces/dev2cp/run_lscpu.sh >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Running chmod +x ---' >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Running chmod +x ---\" >> /tmp/codespace_debug.log 2>&1",
     "chmod +x /workspaces/dev2cp/run_lscpu.sh >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Permissions after chmod ---' >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Permissions after chmod ---\" >> /tmp/codespace_debug.log 2>&1",
     "ls -l /workspaces/dev2cp/run_lscpu.sh >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: Attempting to run script ---' >> /tmp/codespace_debug.log 2>&1",
+    "echo \"--- DEBUG: Attempting to run script ---\" >> /tmp/codespace_debug.log 2>&1",
     "bash /workspaces/dev2cp/run_lscpu.sh >> /tmp/codespace_debug.log 2>&1",
-    "echo '--- DEBUG: postCreateCommand finished ---' >> /tmp/codespace_debug.log 2>&1"
+    "echo \"--- DEBUG: postCreateCommand finished ---\" >> /tmp/codespace_debug.log 2>&1"
   ]
 }
