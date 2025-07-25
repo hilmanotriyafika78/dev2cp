@@ -1,5 +1,5 @@
 {
-  "name": "Minimal Test Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "echo 'Minimal test succeeded!' > /tmp/minimal_test.log"
+  "name": "LSCPU Codespace",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "postCreateCommand": "echo 'Codespace is being provisioned. Checking logs.' > /tmp/codespace_provision_test.log"
 }
